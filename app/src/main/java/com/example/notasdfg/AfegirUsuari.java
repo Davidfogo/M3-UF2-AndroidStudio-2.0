@@ -93,21 +93,24 @@ public class AfegirUsuari extends AppCompatActivity {
             if (nota1.isEmpty()) {
                 form_txt_n1.setError("Falta añadir este campo");
                 return false;
-            }else if (Integer.parseInt(nota1)<0 ||Integer.parseInt(nota1)>10){
+            }
+            if (Integer.parseInt(nota1)<0 ||Integer.parseInt(nota1)>10){
                 form_txt_n1.setError("Nota incorrecta!");
                 form_txt_n1.setText("");
             }
             if (nota2.isEmpty()) {
                 form_txt_n2.setError("Falta añadir este campo");
                 return false;
-            }else if (Integer.parseInt(nota2)<0 ||Integer.parseInt(nota2)>10){
+            }
+            if (Integer.parseInt(nota2)<0 ||Integer.parseInt(nota2)>10){
                 form_txt_n2.setError("Nota incorrecta!");
                 form_txt_n2.setText("");
             }
             if (nota3.isEmpty()) {
                 form_txt_n3.setError("Falta añadir este campo");
                 return false;
-            }else if (Integer.parseInt(nota3)<0 ||Integer.parseInt(nota3)>10){
+            }
+            if (Integer.parseInt(nota3)<0 ||Integer.parseInt(nota3)>10){
                 form_txt_n3.setError("Nota incorrecta!");
                 form_txt_n3.setText("");
             }

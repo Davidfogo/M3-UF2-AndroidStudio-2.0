@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
 
                 contador = 0;
 
-                Log.i("borrar", array_noms[0]);
+                
             }
         });
     }
